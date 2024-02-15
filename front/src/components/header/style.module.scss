@@ -1,0 +1,45 @@
+.img{
+    height: 100%;
+    width: 7vw;
+}
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 1rem;
+    align-items: center;
+    height: 10%; 
+    position: fixed; 
+    top: 0;
+    z-index: 1000;
+    background-color: #fff;
+    
+}
+
+.topright{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    width: 160px;
+}
+.clientName{
+    border: 3px solid;
+    border-color: #f68b1d;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 34px;
+    width: 2rem;
+    justify-content: center;
+}
+.buttonExit{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 2rem;
+    justify-content: center;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}

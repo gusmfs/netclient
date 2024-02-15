@@ -1,0 +1,29 @@
+.main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;    
+}
+.dashboard{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.buttonAdd{
+    position: fixed;
+    bottom: 100px;
+    right: 200px;
+    border: none;
+    background-color: #fff;
+    color: #f68b1d;
+    font-size: 18px;
+    top: 500px;
+    cursor: pointer;
+}
